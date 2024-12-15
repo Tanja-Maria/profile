@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(180, 180, 180);
+  color: rgb(164, 176, 136);
+  font-size: 20px;
+  line-height: 100%;
+  font-family: "Cantata One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-size: 30px;
+  line-height: 200%;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(121, 134, 103);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(179, 161, 161);
+}
+
+a:hover {
+  color: rgb(153, 150, 144);
+}
+
+.container {
+  text-align: center;
+  width: 800px;
+  margin: 0px auto;
+}
+
+.card {
+  background-color: white;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(109, 109, 109);
+  padding: 5px 30px;
+  margin: 10px;
+}
+
+.list-inline {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display:inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
